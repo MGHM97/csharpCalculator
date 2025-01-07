@@ -3,10 +3,7 @@
 namespace csharpCalculator {
   class Program {
     static void Main (string[] args) {
-      // Sum();
-      // Subtraction();
-      // Division();
-      Multiplication();
+      CalculatorMenu();
     }
 
     static void Sum () {
@@ -20,6 +17,7 @@ namespace csharpCalculator {
       Console.WriteLine($"Sum result: {firstValue + secondValue}");
 
       Console.ReadKey();
+      CalculatorMenu();
     }
 
     static void Subtraction () {
@@ -33,6 +31,7 @@ namespace csharpCalculator {
       Console.WriteLine($"Subtraction result: {firstValue - secondValue}");
 
       Console.ReadKey();
+      CalculatorMenu();
     }
 
     static void Division () {
@@ -46,6 +45,7 @@ namespace csharpCalculator {
       Console.WriteLine($"Division result: {firstValue / secondValue}");
 
       Console.ReadKey();
+      CalculatorMenu();
     }
 
     static void Multiplication () {
@@ -59,6 +59,31 @@ namespace csharpCalculator {
       Console.WriteLine($"Multiplication result: {firstValue * secondValue}");
 
       Console.ReadKey();
+      CalculatorMenu();
+    }
+
+    static void CalculatorMenu () {
+      Console.Clear();
+
+      Console.WriteLine("What type of calculation would you like to do?");
+      Console.WriteLine("");
+      Console.WriteLine("1 -> Sum");
+      Console.WriteLine("2 -> Subtraction");
+      Console.WriteLine("3 -> Division");
+      Console.WriteLine("4 -> Multiplication");
+
+      Console.WriteLine("----------/--------/--------");
+
+      Console.WriteLine("Select one of the options above: ");
+      short menuResult = short.Parse(Console.ReadLine());
+
+      switch (menuResult) {
+        case 1: Sum(); break;
+        case 2: Subtraction(); break;
+        case 3: Division(); break;
+        case 4: Multiplication(); break;
+        default: CalculatorMenu(); break;
+      };  
     }
   }
 }
