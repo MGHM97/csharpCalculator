@@ -62,6 +62,23 @@ namespace csharpCalculator {
       CalculatorMenu();
     }
 
+    static void ExitApp () {
+      Console.WriteLine("");
+      Console.Clear();
+      Console.WriteLine("Are you sure you want to exit this app?");
+      Console.WriteLine("");
+      Console.WriteLine("1 -> Yes");
+      Console.WriteLine("2 -> No, go back");
+
+      Console.WriteLine("----------/--------/--------");
+
+      Console.WriteLine("Select one of the options above: ");
+      short exitResult = short.Parse(Console.ReadLine());
+
+      if (exitResult == 1) System.Environment.Exit(0);
+      else CalculatorMenu();
+    }
+
     static void CalculatorMenu () {
       Console.Clear();
 
@@ -71,6 +88,7 @@ namespace csharpCalculator {
       Console.WriteLine("2 -> Subtraction");
       Console.WriteLine("3 -> Division");
       Console.WriteLine("4 -> Multiplication");
+      Console.WriteLine("5 -> Exit app");
 
       Console.WriteLine("----------/--------/--------");
 
@@ -82,6 +100,7 @@ namespace csharpCalculator {
         case 2: Subtraction(); break;
         case 3: Division(); break;
         case 4: Multiplication(); break;
+        case 5: ExitApp(); break;
         default: CalculatorMenu(); break;
       };  
     }
