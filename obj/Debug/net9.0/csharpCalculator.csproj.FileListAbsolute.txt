@@ -12,3 +12,4 @@ C:\dev\csharpCalculator\obj\Debug\net9.0\refint\csharpCalculator.dll
 C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.pdb
 C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.genruntimeconfig.cache
 C:\dev\csharpCalculator\obj\Debug\net9.0\ref\csharpCalculator.dll
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.sourcelink.json
