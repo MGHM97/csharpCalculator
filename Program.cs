@@ -5,7 +5,8 @@ namespace csharpCalculator {
     static void Main (string[] args) {
       // Sum();
       // Subtraction();
-      Division();
+      // Division();
+      Multiplication();
     }
 
     static void Sum () {
@@ -43,6 +44,19 @@ namespace csharpCalculator {
       float secondValue = float.Parse(Console.ReadLine());
 
       Console.WriteLine($"Division result: {firstValue / secondValue}");
+
+      Console.ReadKey();
+    }
+
+    static void Multiplication () {
+      Console.Clear();
+      Console.WriteLine("First value: ");
+      float firstValue = float.Parse(Console.ReadLine());
+
+      Console.WriteLine("Second value: ");
+      float secondValue = float.Parse(Console.ReadLine());
+
+      Console.WriteLine($"Multiplication result: {firstValue * secondValue}");
 
       Console.ReadKey();
     }
