@@ -1,0 +1,14 @@
+C:\dev\csharpCalculator\bin\Debug\net9.0\csharpCalculator.exe
+C:\dev\csharpCalculator\bin\Debug\net9.0\csharpCalculator.deps.json
+C:\dev\csharpCalculator\bin\Debug\net9.0\csharpCalculator.runtimeconfig.json
+C:\dev\csharpCalculator\bin\Debug\net9.0\csharpCalculator.dll
+C:\dev\csharpCalculator\bin\Debug\net9.0\csharpCalculator.pdb
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.AssemblyInfoInputs.cache
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.AssemblyInfo.cs
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.csproj.CoreCompileInputs.cache
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.dll
+C:\dev\csharpCalculator\obj\Debug\net9.0\refint\csharpCalculator.dll
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.pdb
+C:\dev\csharpCalculator\obj\Debug\net9.0\csharpCalculator.genruntimeconfig.cache
+C:\dev\csharpCalculator\obj\Debug\net9.0\ref\csharpCalculator.dll
